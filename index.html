@@ -2,9 +2,54 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>This is a test</title>
+		<title>Javascript Example</title>
 	</head>
 	<body>
-		<h1>If you see this text, it means it worked lol</h1>
+    <h1>Javascript example by ElektrykOliG</h1>
+    <button type="button" onclick="getDate()">Click this button to activate</button>
+    <p id="jstest"></p>
+    <h3 id="disappears" onclick="doPoof()">Click this to make it disappear</h3>
+    <button type="button" style="background-color: #0000FF;" onclick="changeColor()" id="colorButton">Click to change my colour</button>
+    <h2>Input form</h2>
+    <form id="addNumbers">
+      <input type="number" name="number 1" value="2"> + <input type="number" name="number 2" value="3"> = <span id="additionResult"></span>
+    </form>
+    <button type="button" onclick="addTwoNumbers()">Calculate!</button>
+
+    <script>
+      function getDate() {
+        document.getElementById('jstest').innerHTML = Date();
+      }
+
+      function doPoof() {
+        document.getElementById("disappears").innerHTML = " ";
+      }
+
+      function changeColor() {
+        var newColor = getRandomColor();
+        document.getElementById("colorButton").style.backgroundColor = newColor;
+      }
+
+      function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      function addTwoNumbers() {
+        var number1 = 0;
+        var number2 = 0;
+        var form = document.getElementById("addNumbers"); //Get the form
+        number1 = Number(form.elements[0].value); //Number() converts text to number
+        number2 = Number(form.elements[1].value);
+        var result = number1 + number2; //Add the numbers
+        console.log("Result is", result); //Display result in browser console
+        document.getElementById("additionResult").innerHTML = result; //Modify DOM to display result
+      }
+    </script>
+    <noscript>Your browser does not support Javascript!</noscript>
 	</body>
 </html>
