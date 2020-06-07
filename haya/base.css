@@ -20,3 +20,9 @@ body {
   font-style: italic;
   font-size: 12px
 }
+
+.signature {
+  color: #bf00ff;
+  text-align: left;
+  font-style: italic;
+}
