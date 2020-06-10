@@ -1,7 +1,6 @@
 body {
   background-color: #000000;
   color: #00eeff;
-
 }
 
 .titlebar {
@@ -25,4 +24,9 @@ body {
   color: #bf00ff;
   text-align: left;
   font-style: italic;
+}
+
+.italics {
+  font-style: italic;
+  color: #00ffff;
 }
