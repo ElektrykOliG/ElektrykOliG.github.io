@@ -1,0 +1,57 @@
+{
+  "name": "Oli's Blue HC",
+  "description": "Cyan-blue based high contrast theme by Oli/ElektrykOliG",
+  "authors": [
+    {
+      "name": "ElektrykOliG",
+      "id": "241668128965263361",
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "HEADER_PRIMARY": ["#C300FF", "#C300FF", "#C300FF"],
+    "HEADER_SECONDARY": ["#FF0000", "#FF0000", "#FF0000"],
+    "TEXT_NORMAL": ["#00FFFF", "#00FFFF", "#00FFFF"],
+    "TEXT_MUTED": ["#00BABA", "#00BABA", "#00BABA"],
+    "TEXT_LINK": ["#00FF00", "#00FF00", "#00FF00"],
+    "INTERACTIVE_NORMAL": ["#00DD00", "#00DD00", "#00DD00"],
+    "INTERACTIVE_ACTIVE": ["#00FF00", "#00FF00", "#00FF00"],
+    "INTERACTIVE_MUTED": ["#00BABA", "#00BABA", "#00BABA"],
+    "BACKGROUND_PRIMARY": ["#000000", "#000000", "#000000"],
+    "BACKGROUND_SECONDARY": ["#000000", "#000000", "#000000"],
+    "BACKGROUND_SECONDARY_ALT": ["#050505", "#050505", "#050505"],
+    "BACKGROUND_TERTIARY": ["#101010", "#101010", "#101010"],
+    "BACKGROUND_ACCENT": ["#202020", "#202020", "#202020"],
+    "BACKGROUND_FLOATING": ["#000000", "#000000", "#000000"],
+    "BACKGROUND_MESSAGE_HOVER": ["#00FF00", "#00FF00", "#00FF00"],
+    "BACKGROUND_MODIFIER_HOVER": ["#000000", "#000000", "#000000"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["500069", "500069", "500069"],
+    "BACKGROUND_MODIFIER_SELECTED": ["620080", "620080", "620080"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#00BABA", "#00BABA", "#00BABA"],
+    "CHANNEL_ICON": ["#00FF00", "#00FF00", "#00FF00"],
+    "CHAT_BACKGROUND": ["#000000", "#000000", "#000000"],
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#00BABA", "#00BABA", "#00BABA"],
+    "TEXT_DANGER": ["#FF0000", "#FF0000", "#FF0000"]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#a0a0a0",
+    "PRIMARY_200": "#00FFFF",
+    "PRIMARY_300": "#00FFFF",
+    "PRIMARY_360": "#00FF00",
+    "PRIMARY_400": "#C300FF",
+    "PRIMARY_500": "#00FF00",
+    "PRIMARY_600": "#000000",
+    "PRIMARY_630": "#000000",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_800": "#000000",
+    "BRAND_260": "#00FF00",
+    "BRAND_360": "#C300FF",
+    "BRAND_500": "#00BABA",
+    "BRAND_560": "#00BABA",
+    "WHITE_500": "#00FFFF",
+    "GREEN_360": "#00FF00",
+    "RED_400": "#FF0000",
+    "YELLOW_300": "#FFFF00"
+  }
+}
